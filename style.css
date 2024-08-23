@@ -1,3 +1,43 @@
-.logo-first-part{
-    
+@font-face {
+    font-family: 'myfont';
+    src: url(./Playwrite_HU/PlaywriteHU-VariableFont_wght.ttf);
 }
+
+button{
+    border-radius: 23px !important;
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+
+}
+.form-select{
+    border-radius: 23px !important;
+}
+.form-select:hover{
+    cursor:pointer;
+}
+
+.logo-first-part{
+    color: orange;
+    font-family: 'myfont';
+    font-weight: bolder;
+}
+.logo-sec-part{
+    color: rgb(23, 163, 23);
+    font-weight: bold;
+    font-family: monospace;
+}
+.navbar-brand{
+    width: 20%;
+    height: 80px;
+}
+.logo{
+    width: 60px;
+}
+
+.mynavbar{
+    font-family: monospace;
+    color: rgb(23, 163, 23) !important;
+
+}
+
+
