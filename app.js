@@ -1,58 +1,90 @@
 var makeupProduct = {
     Maybelline: {
       NewYork: {
-       img:"download.jfif",
+       img:"images/differ.webp",
         productName: "Lipstick",
         shade: "Red",
         price: "$10",
       },
       turkey:{
-        img:"mascara.jfif",
+        img:"images/mascara.jpg",
         productName: "mascara",
         shade: "blue",
         price: "$20",
       
-        
+      },
+      Paris: {
+        img:"./images/f3.webp",
+        productName: "Foundation",
+        shade: "Beige",
+        price: "$15",
+      },
+      Pakistan:{
+        img:"./images/mascara 4.webp",
+        productName: "mascara",
+        shade: "blue",
+        price: "$20",
+      
       }
     },
     LOreal: {
       Paris: {
-        img:"foundation.jfif",
+        img:"images/f4.webp",
         productName: "Foundation",
         shade: "Beige",
         price: "$15",
+      },
+      Pakistan:{
+        img:"./images/mascara 3.webp",
+        productName: "mascara",
+        shade: "blue",
+        price: "$20",
+      
       }
     },
     Revlon: {
       London: {
-        img:"mascara.jfif",
+        img:"images/mascara 2.jpg",
         productName: "Mascara",
         shade: "Black",
         price: "$12",
       },
       Pakistan :{
-        img:"lipglow.jfif",
-        productName: "lipglow",
+        img:"images/brown.png",
+        productName: "Lipstick",
         shade: "pink",
         price: "$8",
+      },
+       Paris: {
+        img:"./images/f5.jpg",
+        productName: "Foundation",
+        shade: "Beige",
+        price: "$15",
       }
     },
     MAC: {
       Toronto: {
-        img:"eyesahdow.jfif",
+        img:"images/e2.jpg",
         productName: "Eyeshadow",
         shade: "Gold",
         price: "$20",
-      }
+      },
     },
     NARS: {
       Tokyo: {
-        img:"blush.jfif",
-        productName: "Blush",
+        img:"images/e3.jpg",
+        productName: "Eyeshadow",
         shade: "Pink",
         price: "$18",
+      },
+    Pakistan:{
+        img:"./images/mascara 5.webp",
+        productName: "mascara",
+        shade: "blue",
+        price: "$20",
+      
       }
-    },
+    }
 
   
   }
@@ -117,7 +149,7 @@ var selectedCard = document.getElementById("selectedCard");
    
     
     selectedCard.innerHTML = `<div class="card text-center" style="width: 18rem;">
-            <img src="./download.jfif" class="card-img-top" alt="...">
+            <img src="${userVal.img}" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">${userVal.productName}</h5>
               <p class="card-text">${userVal.price}</p>

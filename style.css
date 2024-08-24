@@ -65,8 +65,13 @@ button{
 .first-sec{
     /* width: 700px; */
     height: 120vh;
-    background-image: url(images/WhatsApp\ Image\ 2024-08-24\ at\ 1.04.24\ PM.jpeg);
+    background-image: url(./images/differ.webp);
+    background-size: cover;
     border-image:fill 0 linear-gradient(rgba(177, 177, 177, 0.28), #00000087) !important;
+}
+.card{
+    box-shadow: 1px 1px 5px rgb(81, 81, 81) !important;
+
 }
 .clear{
     color: white !important;
