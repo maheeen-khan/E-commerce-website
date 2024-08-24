@@ -7,13 +7,18 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="bootstrap-5.3.3-dist/css/bootstrap.min.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
 </head>
 
 <body>
 
+    <div class="first-sec">
     <!-- navbar -->
-    <nav class="mynavbar navbar navbar-expand-lg bg-body-tertiary mb-3">
-        <div class="container-fluid">
+    <nav class="mynavbar navbar navbar-expand-lg bg-light mb-3">
+        <div class="container-fluid navv">
             <a class="navbar-brand " href="#">
                 <img src="./images/shopping-online-removebg-preview.png" alt="logo" class="logo"><span
                     class="logo-first-part">Shop</span><span class="logo-sec-part">Hive</span>
@@ -33,7 +38,10 @@
                     <li class="nav-item mx-5">
                         <a class="nav-link" href="#">Pricing</a>
                     </li>
-                    <button class="btn btn-outline-success mx-5" type="submit">Login</button>
+                    <li class="nav-item mx-5">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                    <button class="btn btn-outline mx-5" type="submit">Login</button>
 
                 </ul>
             </div>
@@ -60,18 +68,40 @@
 
             <div class="upper-btns d-flex justify-content-evenly col-lg-2 col-md-3 col-sm-6 mb-3 mx-auto">
                 <div class="">
-                    <button class="btn btn-success" onclick="searchProduct()">Search</button>
+                    <button class="btn search" onclick="searchProduct()"><a href="#sec-2"></a>Search</button>
                 </div>
 
                 <div class="">
-                    <button class="btn btn-outline-success" onclick="clearProduct()">clear</button>
+                    <button class="btn clear" onclick="clearProduct()">clear</button>
                 </div>
             </div>
 
 
         </div>
+    </div>
 
+    <div class="container main text-center  animate__animated animate__fadeInDownBig mt-5 pt-5 animate__slower"> <br><br><br><br>
 
+        <span class="one">S</span>
+        <span class="two">H</span>
+        <span class="three">O</span>
+        <span class="four">P</span>
+        <span class="five">H</span>
+        <span class="six">I</span>
+        <span class="seven">V</span>
+        <span class="eight">E</span>
+
+        
+    </div>
+</div> <!-- first-sec -->
+
+<!-- second sec -->
+
+<div id="sec-2" class=" gap-2 m-4 flex-wrap myCrad">
+       
+         
+</div>
+<div id="selectedCard"></div>
 
         <script src="bootstrap-5.3.3-dist/js/bootstrap.min.js"></script>
         <script src="app.js"></script>

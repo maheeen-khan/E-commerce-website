@@ -39,5 +39,67 @@ button{
     color: rgb(23, 163, 23) !important;
 
 }
+.search{
+    background-color: orange !important ;
+    color: white !important;
+}
+.search:hover{
+    background-color: rgb(255, 201, 100) !important ;
+    color: rgb(134, 134, 134) !important;
+}
 
+.btn-outline{
+    border: 1px solid rgb(23, 163, 23) !important;
+    color: rgb(23, 163, 23) !important;
+}
+.btn-outline:hover{
+    background-color: rgb(23, 163, 23) !important;
+    color: white !important;
+}
+.navv{
+    position: relative;
+    z-index: 10;
+    /* background-color: aliceblue; */
+    top: 0;
+}
+.first-sec{
+    /* width: 700px; */
+    height: 110vh;
+    background-image: url(images/WhatsApp\ Image\ 2024-08-24\ at\ 1.04.24\ PM.jpeg);
+    border-image:fill 0 linear-gradient(rgba(177, 177, 177, 0.28), #00000087) !important;
+}
+.clear{
+    color: white !important;
+    border: 1px solid white !important;
+}
+.main span{
+    font-size: 90px;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 
+    animation-name: main-animation;
+    animation-duration: 5s;
+}
+
+#sec-2{
+    display: flex;
+}
+.search a{
+    text-decoration: none;
+    color: white;
+}
+/* @keyframes main-animation{
+    0%{
+        color: aqua;
+        .one{
+            display: inline;
+        }
+        .two,.three,.four,.five,.six,.seven,.eight{
+            display: none;
+        }
+    }
+    
+    100%{
+        background-color: aqua;
+    }
+} */
