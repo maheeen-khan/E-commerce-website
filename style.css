@@ -93,6 +93,38 @@ button{
     text-decoration: none;
     color: white;
 }
+#grocery {
+    width: 160px;
+    position: relative;
+    
+    animation-name: grocery;
+    animation-duration: 10s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    /* animation-direction: alternate; */
+}
+
+@keyframes grocery {
+    0% {
+        filter: drop-shadow(2px 2px 5px rgb(112, 111, 111));
+        left: 0px;
+        transform: rotateY(0deg);
+    }
+    50% {
+        left: 1050px;
+        transform: rotateY(0deg);
+    }
+    50.01% {
+        transform: rotateY(180deg);
+    }
+    100% {
+        left: 0px;
+        transform: rotateY(180deg);
+        filter: drop-shadow(2px 2px 5px rgb(112, 111, 111));
+
+    }
+}
+
 /* @keyframes main-animation{
     0%{
         color: aqua;

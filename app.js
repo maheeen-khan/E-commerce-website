@@ -165,3 +165,5 @@ var selectedCard = document.getElementById("selectedCard");
     selectedCard.style.display ='none'
     main.style.display= "flex"
   }
+
+  
