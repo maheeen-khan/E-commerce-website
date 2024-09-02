@@ -140,3 +140,9 @@ button{
         background-color: aqua;
     }
 } */
+
+@media screen and (max-width:768px){
+    #grocery {
+        width: 60px;
+    }
+}
