@@ -94,7 +94,7 @@ button {
     width: 160px;
     position: relative;
     animation-name: grocery;
-    animation-duration: 25s;
+    animation-duration: 45s;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
 }
@@ -153,6 +153,7 @@ button {
     
     #grocery {
         width: 90px;
+        animation-duration: 30s;
     }
 
     @keyframes grocery {
