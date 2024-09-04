@@ -62,22 +62,23 @@ button {
     z-index: 10;
     top: 0;
 }
-.first-sec {
+/* .first-sec {
     height: 120vh;
     background-image: url(./images/differ.webp);
     background-size: cover;
     border-image: fill 0 linear-gradient(rgba(177, 177, 177, 0.28), #00000087) !important;
-}
+} */
+ 
 .card {
     box-shadow: 1px 1px 5px rgb(81, 81, 81) !important;
 }
-.clear {
+/* .clear {
     color: white !important;
     border: 1px solid white !important;
-}
+} */
 .main span {
     font-size: 90px;
-    color: white;
+    /* color: white; */
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     animation-name: main-animation;
     animation-duration: 5s;
@@ -91,7 +92,7 @@ button {
     color: white;
 }
 #grocery {
-    width: 160px;
+    width: 150px;
     position: relative;
     animation-name: grocery;
     animation-duration: 45s;
