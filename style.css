@@ -106,7 +106,7 @@ button {
         transform: rotateY(0deg);
     }
     50% {
-        left: 1050px;
+        /* left: 300px; */
         /* transform: rotateY(0deg); */
         transform: translateX(calc(100vw - 160px));
     }
