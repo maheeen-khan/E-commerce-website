@@ -2,7 +2,9 @@
     font-family: 'myfont';
     src: url(./Playwrite_HU/PlaywriteHU-VariableFont_wght.ttf);
 }
-
+.animate-grocery{
+    overflow-x: hidden;
+}
 button {
     border-radius: 23px !important;
     padding-left: 15px !important;
@@ -105,19 +107,21 @@ button {
     }
     50% {
         left: 1050px;
-        transform: rotateY(0deg);
+        /* transform: rotateY(0deg); */
+        transform: translateX(calc(100vw - 160px));
     }
     50.01% {
-        transform: rotateY(180deg);
+        /* transform: rotateY(180deg); */
+        transform: translateX(calc(100vw - 160px)) rotateY(180deg);
     }
     100% {
         left: 0px;
-        transform: rotateY(180deg);
+        transform: translateX(0) rotateY(180deg);
         filter: drop-shadow(0.5px 0.5px 1px rgb(242, 237, 140));
     }
 }
 
-/* Media query for devices between 426px and 768px */
+/* Media query for Tablets */
 @media screen and (min-width:426px) and (max-width:768px) {
     #grocery {
         width: 90px;
@@ -148,7 +152,7 @@ button {
 @media screen and (max-width:426px) {
     
     #grocery {
-        width: 60px;
+        width: 90px;
     }
 
     @keyframes grocery {
@@ -158,7 +162,7 @@ button {
             transform: rotateY(0deg);
         }
         50% {
-            left: 250px;
+            left: 305px;
             transform: rotateY(0deg);
         }
         50.01% {
