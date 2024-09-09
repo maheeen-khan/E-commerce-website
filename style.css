@@ -69,10 +69,19 @@ button {
     border-image: fill 0 linear-gradient(rgba(177, 177, 177, 0.28), #00000087) !important;
 } */
 .parent{
-    /* border: 2px solid red; */
-    display: flex !important;
     width: 100%;
-    height: 100vh;
+}
+.parent col{
+    display: flex;
+    transition: flex 0.9s ease;
+}
+.parent:hover .col {
+    flex: 0.5;
+}
+
+.parent .col:hover {
+    flex: 1;
+    cursor: pointer;
 }
 .parent img{
     flex-wrap: 1;
@@ -80,11 +89,10 @@ button {
     width: 75%;
     /* height: 70vh; */
     aspect-ratio:1/1;
-    object-fit: contain;
-    border: 3px solid red;
-    border-radius: 10px !important;
+    /* object-fit: contain; */
     transition: all ease-in-out 0.5s;
-
+    border-radius: 50%;
+    border: 2px solid rgb(225, 225, 225);
 }
 
 .parent img:hover{
