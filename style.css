@@ -94,7 +94,7 @@ button {
     /* object-fit: contain; */
     transition: all ease-in-out 0.5s;
     border-radius: 50%;
-    border: 2px solid rgb(225, 225, 225);
+    /* border: 2px solid rgb(225, 225, 225); */
 }
 
 .parent img:hover{
