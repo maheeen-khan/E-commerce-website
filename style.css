@@ -188,6 +188,9 @@ button {
         animation-duration: 30s;
     }
 
+    .hid-img{
+        display: none;
+    }
     @keyframes grocery {
         0% {
             filter: drop-shadow(0.5px 0.5px 1px rgb(242, 237, 140));
