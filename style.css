@@ -123,10 +123,10 @@ button {
     color: white;
 }
 #grocery {
-    width: 150px;
+    width: 170px;
     position: relative;
     animation-name: grocery;
-    animation-duration: 45s;
+    animation-duration: 60s;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
 }
