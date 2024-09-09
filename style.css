@@ -77,11 +77,13 @@ button {
 }
 .parent:hover .col {
     flex: 0.5;
+    opacity: 0.7;
 }
 
 .parent .col:hover {
     flex: 1;
     cursor: pointer;
+    opacity: 1; 
 }
 .parent img{
     flex-wrap: 1;
