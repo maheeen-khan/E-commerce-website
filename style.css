@@ -8,8 +8,12 @@
 .above-nav{
     color: white;
     background-color: rgb(226, 148, 4);
-    font-size: 12px;
+    font-size: 13px;
     font-weight: bold;
+}
+.landing-img{
+    height: 70vh;
+    filter: drop-shadow(8px 23px 17px #515151);
 }
 #whatsapp{
     width: 60px;
@@ -76,8 +80,9 @@ button {
     z-index: 10;
     top: 0;
 }
-.sale-gif{
-    width: 70px;
+.combine-2-4{
+    background: linear-gradient(180deg,#E2E2E2, white);
+    /* background-color: #E2E2E2; */
 }
 /* .first-sec {
     height: 120vh;
