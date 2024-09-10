@@ -11,6 +11,10 @@
     font-size: 13px;
     font-weight: bold;
 }
+.heading{
+    font-family: 'myfont';
+    font-weight: bold;
+}
 .landing-img{
     height: 70vh;
     filter: drop-shadow(8px 23px 17px #515151);
@@ -57,6 +61,10 @@ button {
 .mynavbar {
     font-family: monospace;
     color: rgb(23, 163, 23) !important;
+    /* border: 2px solid red; */
+    border-bottom-left-radius: 11px;
+    border-bottom-right-radius: 11px;
+
 }
 .search {
     background-color: orange !important;
