@@ -17,7 +17,7 @@
 }
 .landing-img{
     height: 70vh;
-    filter: drop-shadow(8px 23px 17px #515151);
+    filter: drop-shadow(8px 20px 17px #515151);
 }
 #whatsapp{
     width: 60px;
@@ -220,6 +220,13 @@ button {
 
     .hid-img{
         display: none;
+    }
+    .l-2{
+        order:1;
+    }
+    .landing{
+        order: 2;
+        margin-top: 35px !important;
     }
     @keyframes grocery {
         0% {
