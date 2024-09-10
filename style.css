@@ -11,6 +11,14 @@
     font-size: 12px;
     font-weight: bold;
 }
+#whatsapp{
+    width: 60px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    position: fixed;
+    z-index: 2;
+}
 button {
     border-radius: 23px !important;
     padding-left: 15px !important;
