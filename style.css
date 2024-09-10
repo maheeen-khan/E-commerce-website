@@ -5,6 +5,12 @@
 .animate-grocery{
     overflow-x: hidden;
 }
+.above-nav{
+    color: white;
+    background-color: rgb(226, 148, 4);
+    font-size: 12px;
+    font-weight: bold;
+}
 button {
     border-radius: 23px !important;
     padding-left: 15px !important;
