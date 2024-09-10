@@ -20,7 +20,7 @@
     filter: drop-shadow(8px 20px 17px #515151);
 }
 #whatsapp{
-    width: 60px;
+    width: 50px;
     position: absolute;
     bottom: 0;
     right: 0;
@@ -49,13 +49,15 @@ button {
     color: rgb(23, 163, 23);
     font-weight: bold;
     font-family: monospace;
+    font-size: 15px;
+
 }
 .navbar-brand {
     width: 20%;
     height: 80px;
 }
 .logo {
-    width: 60px;
+    width: 50px;
 }
 
 .mynavbar {
@@ -67,11 +69,11 @@ button {
 
 }
 .search {
-    background-color: orange !important;
+    background-color: rgb(226, 148, 4) !important;
     color: white !important;
 }
 .search:hover {
-    background-color: rgb(255, 201, 100) !important;
+    background-color: orange !important;
     color: rgb(134, 134, 134) !important;
 }
 
