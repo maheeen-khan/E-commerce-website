@@ -76,6 +76,9 @@ button {
     z-index: 10;
     top: 0;
 }
+.sale-gif{
+    width: 70px;
+}
 /* .first-sec {
     height: 120vh;
     background-image: url(./images/differ.webp);
