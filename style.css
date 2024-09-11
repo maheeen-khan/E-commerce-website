@@ -135,10 +135,14 @@ button {
 .card {
     box-shadow: 1px 1px 5px rgb(81, 81, 81) !important;
 }
-/* .clear {
+.clear {
+    color:  rgb(213, 140, 5)  !important;
+    border: 1px solid rgb(226, 148, 4)  !important
+}
+.clear:hover{
     color: white !important;
-    border: 1px solid white !important;
-} */
+    background-color:rgb(226, 148, 4) !important;
+}
 .main span {
     font-size: 90px;
     /* color: white; */
