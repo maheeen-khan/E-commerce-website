@@ -157,6 +157,9 @@ button {
     text-decoration: none;
     color: white;
 }
+.search:hover{
+    color: white !important;
+}
 #grocery {
     width: 170px;
     position: relative;
