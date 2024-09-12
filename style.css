@@ -169,6 +169,12 @@ button {
     animation-iteration-count: infinite;
 }
 
+.sale-img{
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    box-shadow: rgb(213, 140, 5) 0px 30px 90px;;
+}
 @keyframes grocery {
     0% {
         filter: drop-shadow(0.5px 0.5px 1px rgb(242, 237, 140));
